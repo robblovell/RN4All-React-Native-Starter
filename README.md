@@ -11,31 +11,38 @@ Android
 Web
 Chrome (App, not an extension) 
 
-### Install
+## Install
 
 git clone https://github.com/grabcode/react-native-web-starter.git projectname
+
 cd projectname
+
 rm -rf .git
+
 npm install
 
-### Run
+## Run
 
-## ios:
+#### iOS:
 `npm run ios` - Runs in an iOS simulator (you need xCode).
 
-## android:
+#### Android:
 `npm run and` - Runs in an android simulator (make sure the Android simulator is running first).
 
-## Web:
+#### Web:
 `npm run web` - your app is accessible at `http://localhost:3000`
 
-## Chrome: 
+#### Chrome: 
 Load your application into chrome: (https://developer.chrome.com/apps/first_app)
 
-Go to chrome://flags.
+Go to [chrome://flags].
+
 Find "Experimental Extension APIs", and click its "Enable" link.
+
 Restart Chrome.
+
 Load your app
+
 To load your app, bring up the apps and extensions management page by clicking the settings icon  and choosing Tools > Extensions.
 
 Make sure the Developer mode checkbox has been selected.
@@ -43,17 +50,20 @@ Make sure the Developer mode checkbox has been selected.
 Click the Load unpacked extension button, navigate to your app's folder and click OK.
 
 Open new tab and launch
+
 Once you've loaded your app, open a New Tab page and click on your new app icon.
 
 Or, load and launch from command line
+
 These command line options to Chrome may help you iterate:
 
---load-and-launch-app=/path/to/app/ installs the unpacked application from the given path, and launches it. If the application is already running it is reloaded with the updated content.
---app-id=ajjhbohkjpincjgiieeomimlgnll launches an app already loaded into Chrome. It does not restart any previously running app, but it does launch the new app with any updated content.
+``` --load-and-launch-app=/path/to/app/ ``` installs the unpacked application from the given path, and launches it. If the application is already running it is reloaded with the updated content.
+
+``` --app-id=ajjhbohkjpincjgiieeomimlgnll ``` launches an app already loaded into Chrome. It does not restart any previously running app, but it does launch the new app with any updated content.
 
 ### TODO:
 
-Chrome Extension
-Server Side Rendered App
-Build and package for publishing 
+* Chrome Extension
+* Server Side Rendered App
+* Build and package for publishing 
 
