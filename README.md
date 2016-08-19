@@ -6,20 +6,19 @@ This uses as a base the react native for web starter (RN4Web). https://github.co
 
 It demonstrates a 4 environment build with one code base for a react native application:
 
-iOS
-Android
-Web
-Chrome (App, not an extension) 
+* iOS
+* Android
+* Web
+* Chrome (App, not an extension) 
 
 ## Install
 
+```
 git clone https://github.com/grabcode/react-native-web-starter.git projectname
-
 cd projectname
-
 rm -rf .git
-
 npm install
+```
 
 ## Run
 
@@ -30,12 +29,12 @@ npm install
 `npm run and` - Runs in an android simulator (make sure the Android simulator is running first).
 
 #### Web:
-`npm run web` - your app is accessible at `http://localhost:3000`
+`npm run web` - your app is accessible at [http://localhost:3000](http://localhost:3000)
 
 #### Chrome: 
-Load your application into chrome: (https://developer.chrome.com/apps/first_app)
+Load your application into chrome: https://developer.chrome.com/apps/first_app
 
-Go to [chrome://flags].
+Go to [chrome://flags](chrome://flags).
 
 Find "Experimental Extension APIs", and click its "Enable" link.
 
