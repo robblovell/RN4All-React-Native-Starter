@@ -14,7 +14,7 @@ It demonstrates a 4 environment build with one code base for a react native appl
 ## Install
 
 ```
-git clone https://github.com/grabcode/react-native-web-starter.git projectname
+git clone https://github.com/robblovell/RN4All-React-Native-Starter.git projectname
 cd projectname
 rm -rf .git
 npm install
